@@ -40,12 +40,26 @@ if sobrenome:
 
 #Antes de ir para os próximos exemplos vamos aprender como usar operadores lógicos no Python, pois eles vão te ajudar muito nessas funções para poder fazer suas comparações.
 
-== 	Igual a 	Verifica se um valor é igual ao outro
-!= 	Diferente de 	Verifica se um valor é diferente ao outro
-> 	Maior que 	Verifica se um valor é maior que outro
->= 	Maior ou igual 	Verifica se um valor é maior ou igual ao outro
-< 	Menor que 	Verifica se um valor é menor que outro
-<= 	Menor ou igual 	Verifica se um valor é menor ou igual ao outro
+var = 5
+
+if var == 5:
+    print('Os valores são iguais')
+
+if var != 7:
+    print('O valor não é igual a 7')
+
+if var > 2:
+    print('O valor da variável é maior de 2')
+
+if var >= 5:
+    print('O valor da variável é maior ou igual a 5')
+
+if var < 7:
+    print('O valor da variável é menor que 7')
+
+if var <= 5:
+    print('O valor da variável é menor ou igual a 5')
+    
 
 #Agora você vai ter uma noção melhor de como utilizar o IF sem apenas verificar se temos ou não informação na variável.
 
